@@ -1,4 +1,3 @@
-##UnderRated HTML Tags
 
 ## 🧩 Structural & Semantic Tags
 
@@ -12,6 +11,8 @@
 - `<dfn>` – Definition of a term.
 - `<abbr>` – Abbreviation with a tooltip for full form.
 
+---
+
 ## 📦 Form Enhancements
 
 - `<datalist>` – Autocomplete options for `<input>`.
@@ -21,6 +22,8 @@
 - `<fieldset>` – Groups form elements together.
 - `<legend>` – Caption for `<fieldset>`.
 
+---
+
 ## 📌 Utility & Metadata
 
 - `<template>` – Stores HTML that’s not rendered immediately.
@@ -29,8 +32,15 @@
 - `<samp>` – Output from a program or command.
 - `<var>` – Variable in programming/math contexts.
 
+---
+
 ## 🧠 Accessibility & Text Direction
 
+- `<bdi>` – Bi-directional text isolation.
+- `<bdo>` – Overrides text direction (LTR/RTL).
+- `<cite>` – Title of a work (books, movies, etc.).
+- `<small>` – Side comment or legal text.
+- `<wbr>` – Optional line break point in long text.
 - `<bdi>` – Bi-directional text isolation.
 - `<bdo>` – Overrides text direction (LTR/RTL).
 - `<cite>` – Title of a work (books, movies, etc.).
