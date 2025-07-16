@@ -10,6 +10,7 @@
 - **JavaScript** (Behavior): Adds interactivity (e.g., dynamic content, form validation).
 
 ### 2. What are the different types of CSS selectors?
+CSS selectors allow you to target specific HTML elements to style them. Some of the Common Selectors are:
 - **Element Selector**: `p`, `h1`
 - **ID Selector**: `#id`
 - **Class Selector**: `.class`
@@ -18,8 +19,9 @@
 - **Pseudo-element**: `::before`, `::after`
 
 ### 3. Explain the CSS Box Model.
-- The box model includes: `Content` → `Padding` → `Border` → `Margin`
-
+The box model descibes the rectangular boxes that are generated for elements in the document tree.
+- The box model includes: `Content`(The actual content(text or image)) → `Padding` (Space around the content, inside the border) → `Border` (The border around the padding) → `Margin` The outermost space separating the element from others)
+  
 ### 4. What is the difference between `==` and `===` in JavaScript?
 - `==` checks value with type coercion.
 - `===` checks both value and type strictly.
@@ -27,12 +29,16 @@
 ### 5. What are JavaScript closures, and why are they important?
 - A closure is a function with access to its outer scope, even after the outer function has returned.
 - Used for data privacy and function factories.
+OR
+- Closure are functions that retain access to variable from their outer function, even after the outer function has executed. They're important for data encapsulation and for creating private variables. 
 
 ### 6. What is the DOM (Document Object Model)?
 - A tree-like structure representing the webpage elements. JavaScript can access and modify it.
+OR
+- The DOM is an interface that allows JavaScript to interact with HTML and CSS. It represents the document as a tree structure, where each node is an object representing a part of the document. 
 
 ### 7. What are the different ways to declare variables in JavaScript?
-- `var`, `let`, `const`
+- In JavaScript, there are three main ways to declare variables: `var` (Function-scoped and can be reassigned), `let` (Block-scoped and can be reassigned), `const` (Block-scooped and cannot be reassigned after initial assignment) 
 
 ### 8. What is the difference between `null` and `undefined` in JavaScript?
 - `null`: Intentional absence of value
@@ -41,6 +47,11 @@
 ### 9. Explain how `this` works in JavaScript.
 - Depends on context (global, object, function, arrow function)
 - In arrow functions, `this` is lexically bound.
+OR
+- In JavaScript, the value of this determined by the context in which the function is called. It can refer to different things depending on the invocation:
+- In a regular function, it refers to the global object.
+- In an object method, it refers to the object.
+- In an arrow functions, it inherits this from the surrounding scope.
 
 ### 10. What is event delegation in JavaScript?
 - A technique to handle events at a parent level using event bubbling.
